@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637890643979",
+    "project_id": "gsol-b1a16",
+    "storage_bucket": "gsol-b1a16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637890643979:android:c14026e1a2327eb3b59f0e",
+        "android_client_info": {
+          "package_name": "com.example.gsol_main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637890643979-do9t7atf849q6di8r1jp12folc77hqpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW0i5N7xLa_e3FR4aduAp-AuhBT2zd49Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637890643979-do9t7atf849q6di8r1jp12folc77hqpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
