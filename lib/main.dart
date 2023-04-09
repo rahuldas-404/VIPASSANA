@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:gsol_main/Blind/VR.dart';
 import 'package:gsol_main/Home/home.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:camera/camera.dart';
+
+import 'Blind/Audio.dart';
+import 'Login.dart';
 
 
 List<CameraDescription>? cameras;
@@ -30,7 +34,7 @@ class MyApp extends StatelessWidget {
             width: 10000,
           ),
 
-          nextScreen: Home(),
+          nextScreen: LoginPage(),
           splashTransition: SplashTransition.fadeTransition,
           backgroundColor: Colors.amber,
         )

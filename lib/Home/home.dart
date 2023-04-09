@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                         SizedBox(height: 40,),
                         GestureDetector(
                           onTap: (){
-                            if(index==0){
+                            if(index==2){
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(builder: (context) => Page1()),
