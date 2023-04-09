@@ -43,8 +43,9 @@ dependencies:
   speech_to_text: ^6.1.1
   text_to_speech: ^0.2.3
   flutter_tts: ^3.6.3
-  flutter_custom_tabs: ^1.0.0
-  audioplayers: ^0.20.1
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.0
+  image_picker: ^0.8.4+4
 
 
 #  tflite_flutter: ^0.9.1

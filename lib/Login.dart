@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'SignIn.dart'; // Import the SignUpPage file or replace with the actual name of your sign-up page file
 
 class LoginPage extends StatelessWidget {
   @override
@@ -37,6 +38,16 @@ class LoginPage extends StatelessWidget {
                 // TODO: Add login logic here
               },
               child: Text('Login'),
+            ),
+            SizedBox(height: 16.0),
+            TextButton(
+              onPressed: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignUpPage()),
+                );
+              },
+              child: Text('Don\'t have an account? Sign Up'),
             ),
             SizedBox(height: 16.0),
             TextButton(

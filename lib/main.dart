@@ -3,6 +3,7 @@ import 'package:gsol_main/Blind/VR.dart';
 import 'package:gsol_main/Home/home.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:camera/camera.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 import 'Blind/Audio.dart';
 import 'Login.dart';
@@ -13,6 +14,7 @@ List<CameraDescription>? cameras;
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   cameras = await availableCameras();
   runApp(const MyApp());
 }
